@@ -65,9 +65,8 @@ class SimpleChatBot:
         # return self.answers[best_match_index], self.questions[best_match_index], min(similarities)
         return self.answers[best_match_index]
     
-    ############################################# CSV 파일 경로 수정 필요
-# filepath = 'c:\\Users\\lifec\\OneDrive\\Desktop\\바탕화면 백업\\사이버 대학\\4학년 1학기\\AI개발실무\\14주차 챗봇\\chatbot\\ChatbotData.csv'
-filepath = 'ChatbotData.csv'
+
+filepath = 'ChatbotData.csv'       # 파일 경로 설정
 chatbot = SimpleChatBot(filepath)  # 인스턴스를 생성
 
 # '종료'라는 단어가 입력될 때까지 챗봇과의 대화를 반복합니다.
